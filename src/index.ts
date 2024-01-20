@@ -36,7 +36,7 @@ async function findSupportedVersion(packageName: string, nodeVersion: string) {
 
 const args = process.argv.slice(2);
 if (args.length !== 2) {
-  console.log("Usage: find-supported-version <package-name> <node-version>");
+  console.log("Usage: supported-version-of <package-name> <node-version>");
 } else {
   findSupportedVersion(args[0], args[1]);
 }

@@ -1,7 +1,7 @@
 {
   "name": "supported-version-of",
   "version": "1.1.1",
-  "description": "Find compatible package versions for a specific Node.js version",
+  "description": "A tool to find npm package versions compatible with a specific Node.js version",
   "main": "./dist/index.js",
   "scripts": {
     "dev": "tsc --watch",
@@ -9,7 +9,7 @@
     "start": "node dist/index.js"
   },
   "author": "Fadhil Ahmad",
-  "license": "ISC",
+  "license": "MIT",
   "bin": {
     "supported-version-of": "./bin/index.js"
   },
@@ -22,5 +22,23 @@
   "dependencies": {
     "node-fetch": "^2.6.13",
     "semver": "^7.5.4"
-  }
+  },
+  "keywords": [
+    "npm",
+    "nodejs",
+    "version",
+    "package",
+    "compatibility",
+    "npx",
+    "cli",
+    "engine"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fadhilx/supported-version-of.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fadhilx/supported-version-of/issues"
+  },
+  "homepage": "https://github.com/fadhilx/supported-version-of#readme"
 }
