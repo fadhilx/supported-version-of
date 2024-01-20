@@ -1,6 +1,6 @@
 {
   "name": "supported-version-of",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Find compatible package versions for a specific Node.js version",
   "main": "dist/index.js",
   "scripts": {
@@ -10,9 +10,6 @@
   },
   "author": "Fadhil Ahmad",
   "license": "ISC",
-  "bin": {
-    "supported-version-of": "./dist/index.js"
-  },
   "devDependencies": {
     "@types/node": "^14.0.0",
     "@types/node-fetch": "^2.6.11",
